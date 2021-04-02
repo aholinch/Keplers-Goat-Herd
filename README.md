@@ -16,3 +16,7 @@ We also provide a pure numpy version of the contour integration function in ```k
 
 **Authors**:
 - Oliver Philcox (Princeton, [ohep2@cantab.ac.uk](mailto:ohep2@cantab.ac.uk))
+
+
+# Java Version
+The java version uses the standard math library.  A FastMath implementation would probably speend things up.  To compile ```javac keplers_goat_herd.java```.  To run type ```java -classpath . keplers_goat_herd```
