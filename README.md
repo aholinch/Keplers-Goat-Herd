@@ -21,3 +21,6 @@ We also provide a pure numpy version of the contour integration function in ```k
 # Java Version
 The java version uses the standard math library.  A FastMath implementation would probably speed things up.  Add a Bessel implementation to test series method.
 To compile ```javac keplers_goat_herd.java```.  To run type ```java -classpath . keplers_goat_herd```
+
+# Utility Functions
+The util directory contains cpp, python, and java versions of mToE.  This function is very easy to include in your own code in order to use Philcox's method for solving Kepler's equation.
